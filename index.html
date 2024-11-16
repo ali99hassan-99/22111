@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إدارة الاشتراكات</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>إدارة الاشتراكات</h1>
+        <div class="actions">
+            <button onclick="loadSubscriptions()">عرض الاشتراكات</button>
+            <button onclick="showForm('add')">إضافة اشتراك</button>
+            <button onclick="showForm('delete')">حذف اشتراك</button>
+            <button onclick="showForm('search')">البحث عن اشتراك</button>
+            <button onclick="showForm('renew')">تجديد اشتراك</button>
+        </div>
+        <div id="form-container"></div>
+        <div id="subscriptions-list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
